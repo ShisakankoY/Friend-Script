@@ -9,7 +9,7 @@ JavaScript で書かれた簡易スクリプト言語用インタープリター
 
 ## 使い方
 
-1. このスクリプトを `friend.js` として保存
+1. このスクリプトを `script.js` として保存
 2. Node.js で実行:
 
 ```bash
@@ -24,7 +24,7 @@ Supported commands: `set`, `Go`, `If`, `loop`
 
 ## Usage
 
-1. Save this script as `friend.js`
+1. Save this script as `script.js`
 2. Run with Node.js:
 
 ```bash
