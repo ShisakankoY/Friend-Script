@@ -8,6 +8,8 @@ MITライセンスを使用しています。ご注意ください。
 
 ## 構文
 
+---コードは文字列として扱ってください。拡張子はjsと同じです。---
+
 ---実行(上から順に実行)---
 
 `friend(code);`
@@ -48,6 +50,9 @@ Finish
 Friend-Script is a JavaScript-based DSL specifically designed for browser manipulation. It executes from top to bottom. It uses the MIT license. Please note this.
 
 ## Syntax
+
+---Please treat the code as a string. The file extension is the same as .js.---
+
 ---Execution (Executes from top to bottom)---
 
 friend(code);
