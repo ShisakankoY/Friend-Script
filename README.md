@@ -42,3 +42,34 @@ Finish
 
 `<script src=>`
 をhtmlファイルに記述してください。
+
+
+## Overview
+Friend-Script is a JavaScript-based DSL specifically designed for browser manipulation. It executes from top to bottom. It uses the MIT license. Please note this.
+
+## Syntax
+---Execution (Executes from top to bottom)---
+
+friend(code);
+
+---Code (Execution outline omitted)---
+
+---Console Output--- Log element
+
+---Page Open--- Open URL
+
+---Click--- Knock htmlID
+
+---Wait--- Wait time
+
+---Existence Check---
+
+If the element does not exist, terminate the script at that point. If target *target is a CSS selector (htmlID is also acceptable; in that case, add #)
+---Loop---
+
+Loop time
+//Processing
+Finish
+
+## How to Use
+Add `<script src=>` to your HTML file.
