@@ -32,7 +32,8 @@ MITライセンスを使用しています。ご注意ください。
 ＊targetはCSSセレクタ(htmlIDでも良い。その場合は#をつける)
 
 ---ループ---
-```Loop time
+```
+Loop time
 //処理
 Finish
 ```
