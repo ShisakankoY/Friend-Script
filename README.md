@@ -17,23 +17,30 @@ MITライセンスを使用しています。ご注意ください。
 ---コード(実行外枠は省略)---
 
 ---コンソール出力---
+
 `Log element`
 
 ---ページオープン---
+
 `Open URL`
 
 ---クリック---
+
 `Knock htmlID`
 
 ---待機---
+
 `Wait time`
 
 ---存在確認---
-- 要素が存在しない場合、その時点でスクリプトを終了
+
 `If target`
+
+- 要素が存在しない場合、その時点でスクリプトを終了
 ＊targetはCSSセレクタ(htmlIDでも良い。その場合は#をつける)
 
----ループ---
+---ループ(バッククォートを使用して記述してください)---
+
 ```
 Loop time
 //処理
@@ -59,22 +66,36 @@ friend(code);
 
 ---Code (Execution outline omitted)---
 
----Console Output--- Log element
+---Console Output--- 
 
----Page Open--- Open URL
+`Log element`
 
----Click--- Knock htmlID
+---Page Open--- 
 
----Wait--- Wait time
+`Open URL`
+
+---Click--- 
+
+`Knock htmlID`
+
+---Wait--- 
+
+`Wait time`
 
 ---Existence Check---
 
-If the element does not exist, terminate the script at that point. If target *target is a CSS selector (htmlID is also acceptable; in that case, add #)
----Loop---
+`If target `
 
+If the element does not exist, terminate the script at that point.
+*target is a CSS selector (htmlID is also acceptable; in that case, add #)
+
+---Loop(Please use backticks)---
+
+```
 Loop time
 //Processing
 Finish
+```
 
 ## How to Use
 Add `<script src="https://shisakankoy.github.io/Friend-Script/friend.js">` to your HTML file.
