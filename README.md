@@ -10,6 +10,8 @@ MITライセンスを使用しています。ご注意ください。
 
 ---コードは文字列として扱ってください。拡張子はjsと同じです。---
 
+---複数行対応しています。バッククォートを使用して記述できます。---
+
 ---実行(上から順に実行)---
 
 `friend(code);`
@@ -59,6 +61,8 @@ Friend-Script is a JavaScript-based DSL specifically designed for browser manipu
 ## Syntax
 
 ---Please treat the code as a string. The file extension is the same as .js.---
+
+---Supports multiple lines. You can use backticks.---
 
 ---Execution (Executes from top to bottom)---
 
