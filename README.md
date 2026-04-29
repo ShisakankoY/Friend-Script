@@ -34,6 +34,8 @@ MITライセンスを使用しています。ご注意ください。
 
 `Wait time(ms)`
 
+*非同期です。順序を守って実行したい場合は、一つにまとめて記述してください。(複数行)
+
 ***存在確認***
 
 `If target`
@@ -85,6 +87,8 @@ friend(code);
 ***Wait*** 
 
 `Wait time(ms)`
+
+*This is asynchronous. If you want the commands to execute in a specific order, please write them together in a single line. (Multiple lines)
 
 ***Existence Check***
 
