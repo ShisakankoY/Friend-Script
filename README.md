@@ -30,7 +30,7 @@ MITライセンスを使用しています。ご注意ください。
 
 ---待機---
 
-`Wait time`
+`Wait time(ms)`
 
 ---存在確認---
 
@@ -80,7 +80,7 @@ friend(code);
 
 ---Wait--- 
 
-`Wait time`
+`Wait time(ms)`
 
 ---Existence Check---
 
